@@ -41,15 +41,3 @@ function getAdultsData ($db) {
 }
 
 $result = getAdultsData($db);
-
-// function that echos out just Adults names
-//function adultNames($result) {
-//    foreach ($result as $obj) {
-//            $obj->name = 'gertrude';
-//    }
-//}
-//adultNames($result);
-
-//echo "<pre>" . var_export($result, true) . "</pre>";
-
-
